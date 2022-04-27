@@ -5,8 +5,9 @@
 class Translation(object):
     
     START_TEXT = """<b>Hey {}!!</b>
-<i>Am Just A Advance Auto Filter Bot....😉
-Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🌚🎀
+<i>𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 ബണ്ടു ᴹᴹ ᴳᴿᴼᵁᴾ
+ഈ ബോട്ട് [𝑴𝑴] CINEMA CLUB GROUP 🎬🎬 ഗ്രൂപ്പിലേക്ക് ഉള്ളത് എന്ന് ഇനി വീണ്ടും വീണ്ടും പറയണോ??
+അപ്പോ പിന്നെ എന്തിനാ വീണ്ടും വീണ്ടും സ്റ്റാർട്ട് കുത്തി കളിക്കാൻ വരുന്നേ... ആ സൈഡിലോട്ട് എങ്ങാനും മാറി ഇരിക്ക്‌ ഇനി🤭🤭
 For More Details Click Help Button Below..
 @MM_CINEMA_CLUB
 </i>"""        
@@ -46,7 +47,7 @@ For More Details Click Help Button Below..
     
     ABOUT_TEXT = """<b>➥ 📃Name</b> : <b>Pro Auto Filter Bot</b>
 
-<b>>➥👨‍💼Master</b> : <b><a href="https://t.me/LXRBOTSGROUP">👤 LXR YOUTUBER</a></b>
+<b>>➥👨‍💼Master</b> : <b><a href="https://t.me/cinemaclubcc">👤 SuneeshDeeZuZZa</a></b>
 
 <b>➥ 📺update Channel </b> : <b><a href="https://t.me/MM_CINEMA_CLUB">👤CINEMA CHAKKU</a></b>
 
