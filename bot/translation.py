@@ -8,7 +8,7 @@ class Translation(object):
 <i>Am Just A Advance Auto Filter Bot....😉
 Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🌚🎀
 For More Details Click Help Button Below..
-@LXRYOUTUBERYT
+@MM_CINEMA_CLUB
 </i>"""        
     
     HELP_TEXT = """
@@ -41,18 +41,18 @@ For More Details Click Help Button Below..
             
             -> <code>Status</code> - <b>Button Will Shows The Stats Of Your Channel</b>
             
-<b><a href="https://t.me/LXRBOTSGROUP">© LXR YOUTUBER</a></b>
+<b><a href="https://t.me/MM_CINEMA_CLUB">© channel</a></b>
 """
     
     ABOUT_TEXT = """<b>➥ 📃Name</b> : <b>Pro Auto Filter Bot</b>
 
 <b>>➥👨‍💼Master</b> : <b><a href="https://t.me/LXRBOTSGROUP">👤 LXR YOUTUBER</a></b>
 
-<b>➥ 🎬turtoil video</b> : <b><a href="https://youtu.be/pgupV-C6B74">👤LXR AMAL BOTS</a></b>
+<b>➥ 📺update Channel </b> : <b><a href="https://t.me/MM_CINEMA_CLUB">👤CINEMA CHAKKU</a></b>
 
 <b>➥ 🗣️Language</b> : <b>Python3<b>
 
 <b>➥ 📚Library</b> : <b><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></b>
 
-<b>➥ 📖Source Code</b> : <b><a href="https://github.com/LXR-YOUTUBER-AMAL/auto-filter-bot-premier">💥Click Me</a></b>
+<b>➥ 👥𝘚𝘶𝘱𝘱𝘰𝘳𝘵 Group</b> : <b><a href="https://t.me/Moviez_group_mg">💥Click Me</a></b>
 """
