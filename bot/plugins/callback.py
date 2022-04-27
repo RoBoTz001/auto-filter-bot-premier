@@ -95,7 +95,7 @@ async def cb_navg(bot, update: CallbackQuery):
 
     if not int(index_val) == 0:    
         temp_results.append([
-            InlineKeyboardButton(f"📑 Page {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} 📑", callback_data="ignore")
+            InlineKeyboardButton(f"📝 Page {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} 📝", callback_data="ignore")
         ])
     
     if show_invite and int(index_val) !=0 :
@@ -1601,14 +1601,14 @@ async def cb_about(bot, update: CallbackQuery):
     text=f"<i><u>Bot's Status</u></i>\n"
     text+=f"\n<b><i>Bot's Uptime:</i></b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
     text+=f"\n<b><i>Bot Funtion:</i></b> <i>Auto Filter Files</i>\n"
-    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/LXRBOTSGROUP">✨ CLICK HERE ✨</a>\n"""
-    text+="""\n<b><i>Source Code:</i></b> <a href="https://t.me/LXRBOTSGROUP">Source</a>"""
+    text+=f"""\n<b><i>Support Group:</i></b> <a href="https://t.me/Moviez_group_mg">✨ CLICK HERE ✨</a>\n"""
+    text+="""\n<b><i>Join Our Channel:</i></b> <a href="https://t.me/MM_CINEMA_CLUB">Sub</a>"""
 
     buttons = [
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/malayalammoviesmmms"
+                    "🏅 Support Group 🏅", url="https://t.me/Moviez_group_mg"
                 ),
                 
             InlineKeyboardButton
@@ -1639,15 +1639,15 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('👨‍💼𝙼𝚢 𝙳𝚎𝚟', url='https://t.me/malayalammoviesmmms'),
-            InlineKeyboardButton('𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎🧾', url ='https://t.me/LXRBOTSGROUP')
+            InlineKeyboardButton('👨‍💼 Owner ', url='https://t.me/cinemaclubcc'),
+            InlineKeyboardButton('Bot user 🤖', url ='http://t.me/MM_GROUP_BoT')
         ],[
             InlineKeyboardButton('⚙️𝙷𝚎𝚕𝚙⚙️', callback_data="help")
         ],[
-            InlineKeyboardButton('🗣️𝙰𝚗𝚢 𝙳𝚘𝚞𝚋𝚝', url='https://t.me/LXRBOTSGROUP'),
-            InlineKeyboardButton('𝚄𝚙𝚍𝚊𝚝𝚎𝚜🤖', url='https://t.me/LXRYOUTUBERYT')
+            InlineKeyboardButton('Support Group 👥', url='https://t.me/Moviez_group_mg'),
+            InlineKeyboardButton('𝚄𝚙𝚍𝚊𝚝𝚎 Channel 📺', url='https://t.me/MM_CINEMA_CLUB')
         ],[
-            InlineKeyboardButton('🍂 REPO 🍂️', url='https://t.me/LXRBOTSGROUP')
+            InlineKeyboardButton('🍂 Owner 🍂️', url='https://t.me/cinemaclubcc')
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1680,10 +1680,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "about": 
         buttons = [[
-            InlineKeyboardButton('👤 LXR YOUTUBER AMAL', url='https://t.me/LXRBOTSGROUP'),
-            InlineKeyboardButton('Support 👤', url='https://t.me/LXRBOTSGROUP')
+            InlineKeyboardButton('📺 𝚄𝚙𝚍𝚊𝚝𝚎 Channel', url='https://t.me/MM_CINEMA_CLUB'),
+            InlineKeyboardButton('Support Group 👤', url='https://t.me/Moviez_group_mg')
         ],[
-            InlineKeyboardButton('🍂 REPO 🍂', url='https://t.me/LXRYOUTUBERYT')
+            InlineKeyboardButton('🍂 Owner 🍂', url='https://t.me/cinemaclubcc')
         ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('Close 🔐', callback_data='close')
